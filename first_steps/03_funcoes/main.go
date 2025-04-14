@@ -21,7 +21,7 @@ func somarHof(a int) func(int) int {
 func somarVariatica(nums ...int) int {
 	var out int
 	for _, n := range nums {
-		out += n
+		out += n + 1
 	}
 	return out
 }
